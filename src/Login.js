@@ -41,10 +41,7 @@ const Login = ({ history }) => {
         </div>
         <div className="form-group">
 
-          <button className="btn btn-light" type="submit">Log in</button>
-        </div>
-        <div className="form-group">
-        {/*<Link to="/signup"><button className="btn btn-dark" type="submit">Sign up</button></Link>*/}
+          <button className="btn btn-dark" type="submit">Log in</button>
         </div>
       </form>
     </div>
