@@ -19,7 +19,7 @@ export class NotesForm extends Component {
   }
 
   createNote () {
-    if (this.state.title !== '' && this.state.note !== '') {
+    if (this.state.note !== '') {
       app.database().ref('notes').push({
         title: this.state.title,
         note: this.state.note
