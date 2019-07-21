@@ -10,7 +10,7 @@ const App = () => {
   
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="https://hazemelsawy.github.io/react-notes/">
         <div>
           <PrivateRoute exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
