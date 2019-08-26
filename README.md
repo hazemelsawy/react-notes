@@ -1,1 +1,1 @@
-Simple note taking app using ReactJS and firebase
+Simple note taking app using ReactJS and Firebase
